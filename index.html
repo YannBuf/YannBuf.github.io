@@ -9,6 +9,13 @@
         <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
         <!-- 引入中国地图 -->
         <script src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+        <script>
+            window.addEventListener('resize', function() {
+            mapChart.resize();
+            lineChart.resize();
+            pieChart.resize();
+            });
+        </script>
         
     </head>
 
